@@ -1,0 +1,61 @@
+/* Fondo general */
+body {
+  background-color: #fff0f5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffd6e0 !important;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #ffc1cc, #d8b4f8);
+  color: white;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Iconos */
+.paw {
+  color: #ff8fab;
+  font-size: 1.5rem;
+}
+
+.paws {
+  margin-top: 10px;
+}
+
+/* Títulos */
+.section-title {
+  color: #c77dff;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #ffd6e0;
+  color: #6a4c93;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;   /* muestra completa */
+  background-color: #fff0f5;
+}
+
+.gallery-img {
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+  filter: brightness(105%);
+}
